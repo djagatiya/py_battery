@@ -1,0 +1,9 @@
+[Unit]
+Description=Py Battery Status
+
+[Service]
+ExecStart=/home/djagatiya/py_battery/run.sh
+
+[Install]
+WantedBy=multi-user.target
+

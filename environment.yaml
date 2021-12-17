@@ -1,0 +1,10 @@
+name: py_battery_env
+
+dependencies:
+  - python==3.8.5
+  - pip:
+    - plyer==2.0.0
+    - psutil==5.8.0 
+
+
+
